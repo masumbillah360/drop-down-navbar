@@ -1,0 +1,50 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav>ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+nav>ul>li{
+    list-style: none;
+    height: 20px;
+    width: 100px;
+    margin: 0;
+    padding: 0;
+}
+ul>li>a{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: dimgray;
+    font-size: 1.5em;
+    
+}
+ul>li>a:hover{
+
+    background-color: antiquewhite;
+    color: black;
+}
+
+ul>li>ul{
+    padding: 0;
+    position: absolute;
+}
+nav>ul>li>ul>li {
+    margin: 15px auto;
+    display: none;
+
+}
+
+nav>ul>li:hover>ul>li{
+    display:block;
+    justify-content: center;
+    align-items: center;
+}
+ul>li>ul>li>a{
+    padding: 10px 20px;
+    background-color: rgb(236, 236, 236);
+}
